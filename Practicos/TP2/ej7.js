@@ -9,3 +9,7 @@
 // 22
 // 1
 
+
+for (let i = 30; i >= 1; i--) {
+    console.log(String(i).repeat(i));
+}
