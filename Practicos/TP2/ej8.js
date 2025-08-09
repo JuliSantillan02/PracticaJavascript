@@ -7,3 +7,9 @@
 // 12345
 // 123456
 // ……
+
+let numero = parseInt(prompt("Ingrese un número "))
+if(numero > 1 && numero < 50){
+    
+  
+}

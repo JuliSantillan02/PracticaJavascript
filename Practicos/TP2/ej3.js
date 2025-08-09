@@ -2,3 +2,9 @@
 // concatenadas con un guión -.
 
 // Nota: usar confirm() https://www.w3schools.com/jsref/met_win_confirm.asp
+
+let cadenaConcatenada;
+do {
+   let frase = prompt("Ingrese una frase: ")
+   let cadenaConcatenada = cadenaConcatenada + "-" + frase
+} while (confirm("¿Desea continuar?"));
